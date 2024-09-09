@@ -183,9 +183,73 @@ article.up {
 }
 
 nav {
-  border-bottom-color: var(--nav-border-bottom-color);
-  background: var(--nav-background-color);
+  background: var(--nav-background-color); /* Purple background for nav */
+  border-bottom: 1px solid var(--nav-border-bottom-color); /* Lighter purple border */
+  color: var(--body-text-color); /* Text color for readability */
+  padding: 0.75rem 1.5rem; /* Adequate padding for spacing */
+  display: flex;
+  justify-content: space-between; /* Space between nav items */
+  align-items: center; /* Center align items vertically */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  border-radius: 0 0 1rem 1rem; /* Rounded bottom corners */
 }
+
+nav a {
+  color: var(--body-text-color); /* Link color matching text color */
+  text-decoration: none; /* Remove underline */
+  padding: 0.5rem 1rem; /* Padding for clickable area */
+  border-radius: 0.5rem; /* Rounded corners for links */
+  transition: background 0.3s ease, color 0.3s ease; /* Smooth transition effects */
+}
+
+nav a:hover,
+nav a:focus {
+  background: rgba(255, 255, 255, 0.1); /* Subtle background on hover */
+  color: var(--nav-current-border-bottom-color); /* Highlight color on hover */
+}
+
+nav .nav-item {
+  display: inline-block;
+  margin: 0 0.5rem; /* Space between nav items */
+}
+
+nav [aria-current] {
+  border-bottom: 2px solid var(--nav-current-border-bottom-color); /* Bold underline for current item */
+  color: var(--nav-current-border-bottom-color); /* Highlight text color */
+  font-weight: bold; /* Bold font for emphasis */
+}
+
+/* Additional styling for dropdowns or mobile views */
+.nav-dropdown {
+  position: relative;
+}
+
+.nav-dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: var(--nav-background-color);
+  border: 1px solid var(--nav-border-bottom-color);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  z-index: 1000;
+}
+
+.nav-dropdown:hover .nav-dropdown-content {
+  display: block;
+}
+
+.nav-dropdown-content a {
+  padding: 0.5rem 1rem;
+  display: block;
+  color: var(--body-text-color);
+}
+
+.nav-dropdown-content a:hover {
+  background: rgba(255, 255, 255, 0.1); /* Highlight on hover */
+}
+
 
 [aria-current] {
   border-bottom-color: var(--nav-current-border-bottom-color);
