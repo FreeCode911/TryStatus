@@ -41,7 +41,7 @@ a {
 article {
   padding: 1rem 1.25rem;
   position: relative;
-  border-radius: 0.2rem;
+  border-radius: 1rem; /* Smooth and curved edges */
   border: 1px solid;
 }
 article.link a::after {
@@ -66,12 +66,15 @@ h4 {
 }
 article.down {
   border-left: 0.2rem solid;
+  border-radius: 1rem; /* Rounded edges */
 }
 article.degraded {
   border-left: 0.2rem solid;
+  border-radius: 1rem; /* Rounded edges */
 }
 article.up {
   border-left: 0.2rem solid;
+  border-radius: 1rem; /* Rounded edges */
 }
 
 .f {
@@ -88,7 +91,7 @@ section + h2 {
 .tag {
   display: inline-block;
   padding: 0.33rem 0.5rem;
-  border-radius: 0.2rem;
+  border-radius: 0.5rem; /* More curved edges for tags */
   font-size: 70%;
   vertical-align: middle;
   margin-top: -0.2rem;
@@ -107,6 +110,7 @@ dl dd {
 
 nav {
   border-bottom: 1px solid;
+  border-radius: 1rem; /* Rounded edges for the nav bar */
 }
 
 [aria-current] {
@@ -115,6 +119,7 @@ nav {
 
 a.error-button {
   border: 0.1rem solid;
+  border-radius: 0.5rem; /* Rounded edges for buttons */
 }
 
 /* Theming */
@@ -123,6 +128,7 @@ a.error-button {
   background: #01a3a4;
   color: #fff;
   border-color: transparent;
+  border-radius: 0.5rem; /* Rounded edges for submit buttons */
 }
 
 body {
@@ -195,6 +201,7 @@ a.error-button {
   background: var(--submit-button-background-color);
   color: var(--submit-button-color);
   border-color: var(--submit-button-border-color);
+  border-radius: 0.5rem; /* Rounded submit button edges */
 }
 
 article .graph {

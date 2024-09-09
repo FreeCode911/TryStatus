@@ -1,26 +1,26 @@
 :root {
-  --body-background-color: #0d1117;
-  --body-text-color: #c9d1d9;
-  --card-background-color: #30363D;
-  --nav-background-color: #161b22;
-  --nav-border-bottom-color: #161b22;
-  --nav-current-border-bottom-color: #1abc9c;
-  --card-border-color: #30363D;
-  --down-border-left-color: #eb3b5a;
-  --down-background-color: #6b1020;
-  --degraded-border-left-color: #f7b731;
-  --up-border-left-color: #22993D;
-  --tag-color: #0d1117;
-  --tag-up-background-color: #22993D;
-  --tag-down-background-color: #F03A17;
-  --tag-degraded-background-color: #f7b731;
-  --change-background-color: #f7b731;
-  --error-button-border-color: #1a46ad;
-  --error-button-background-color: #3867d6;
-  --error-button-color: #ffffff;
-  --submit-button-border-color: #1a46ad;
-  --submit-button-background-color: #3867d6;
-  --submit-button-color: #ffffff;
+  --body-background-color: #0d1117; /* Dark background */
+  --body-text-color: #e0dff4; /* Light lavender text color */
+  --card-background-color: #1e1e2f; /* Dark purple card background */
+  --nav-background-color: #1b1b2f; /* Dark purple/nav background */
+  --nav-border-bottom-color: #2e2e3a; /* Slightly lighter purple/nav border */
+  --nav-current-border-bottom-color: #c77dff; /* Light purple for current nav item */
+  --card-border-color: #2e2e3a; /* Slightly lighter purple card border */
+  --down-border-left-color: #e16473; /* Purple-red for 'down' status */
+  --down-background-color: #6b1020; /* Dark purple-red background for 'down' status */
+  --degraded-border-left-color: #f7b731; /* Yellow for 'degraded' status */
+  --up-border-left-color: #9b5de5; /* Light purple for 'up' status */
+  --tag-color: #e0dff4; /* Light lavender for tag text */
+  --tag-up-background-color: #9b5de5; /* Light purple for 'up' tags */
+  --tag-down-background-color: #e16473; /* Purple-red for 'down' tags */
+  --tag-degraded-background-color: #f7b731; /* Yellow for 'degraded' tags */
+  --change-background-color: #c77dff; /* Light purple for changed sections */
+  --error-button-border-color: #6a0e9e; /* Darker purple for error button border */
+  --error-button-background-color: #9b5de5; /* Light purple for error button background */
+  --error-button-color: #ffffff; /* White text color for error button */
+  --submit-button-border-color: #6a0e9e; /* Darker purple for submit button border */
+  --submit-button-background-color: #9b5de5; /* Light purple for submit button background */
+  --submit-button-color: #ffffff; /* White text color for submit button */
   --graph-opacity: 1;
   /* --graph-filter: brightness(0.35) sepia(1) hue-rotate(88deg) saturate(8); */
 }
