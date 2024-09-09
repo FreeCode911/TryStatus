@@ -9,6 +9,10 @@ sites:
     url: https://manage.lykcloud.com/
   - name: Panel
     url: http://control.lykcloud.com/
+  - name: Kazakhstan - Node
+    url: pl.lykcloud.com
+    port: 80
+    check: "tcp-ping"
   - name: Minolink
     url: https://minolink.us.kg/
   - name: PicGenV - API
@@ -25,7 +29,7 @@ status-website:
   # baseUrl: /your-repo-name
   logoUrl: https://lykfile.me/cn/CD0322-Untitled_design-removebg-preview.png
   name: LykCloud 24/7
-  introTitle: "** Welcome!** is the open-source uptime monitor and status page, powered entirely by GitHub."
+  introTitle: "**Welcome!** LykCloud will always online"
   introMessage: Welcome to the LykCloud Status Page! Here, you can check the current status of our services, monitor system performance, and stay updated with any ongoing maintenance or incidents.
   navbar:
     - title: Status
