@@ -11,7 +11,7 @@ sites:
     url: http://control.lykcloud.com/
   - name: Kazakhstan - Node
     url: kz.lykcloud.com
-    port: 8081
+    port: 8080
     check: "tcp-ping"
   - name: Poland - Node
     url: pl.lykcloud.com
