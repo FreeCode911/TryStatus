@@ -11,7 +11,7 @@ sites:
     url: http://control.lykcloud.com/
   - name: Kazakhstan - Node
     url: kz.lykcloud.com
-    port: 8080
+    port: 8081
     check: "tcp-ping"
   - name: Poland - Node
     url: pl.lykcloud.com
@@ -45,6 +45,6 @@ status-website:
     - title: Free Hosting
       href: https://lykcloud.com
 i18n:
-  footer: powered by [LykCloud](https://lykcloud.com)
+  footer: Powered by [LykCloud](https://lykcloud.com)
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
