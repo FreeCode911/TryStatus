@@ -94,19 +94,19 @@
     "url": "https://minolink.us.kg/",
     "icon": "https://icons.duckduckgo.com/ip3/minolink.us.kg.ico",
     "slug": "minolink",
-    "status": "down",
-    "uptime": "99.99%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "99.99%",
-    "uptimeYear": "99.99%",
-    "time": 2444,
-    "timeDay": 2444,
-    "timeWeek": 2444,
-    "timeMonth": 2444,
-    "timeYear": 2444,
+    "status": "up",
+    "uptime": "96.35%",
+    "uptimeDay": "96.35%",
+    "uptimeWeek": "96.35%",
+    "uptimeMonth": "96.35%",
+    "uptimeYear": "96.35%",
+    "time": 2590,
+    "timeDay": 2590,
+    "timeWeek": 2590,
+    "timeMonth": 2590,
+    "timeYear": 2590,
     "dailyMinutesDown": {
-      "2024-09-09": 0
+      "2024-09-09": 45
     }
   },
   {
