@@ -44,5 +44,7 @@ status-website:
       href: https://youtube.com/@legendyt4k
     - title: Free Hosting
       href: https://lykcloud.com
+i18n:
+  footer: powered by [LykCloud](https://lykcloud.com)
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
