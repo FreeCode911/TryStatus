@@ -23,18 +23,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/manage.lykcloud.com.ico",
     "slug": "dashboard",
     "status": "down",
-    "uptime": "99.41%",
-    "uptimeDay": "99.21%",
-    "uptimeWeek": "99.41%",
-    "uptimeMonth": "99.41%",
-    "uptimeYear": "99.41%",
+    "uptime": "88.98%",
+    "uptimeDay": "83.56%",
+    "uptimeWeek": "88.98%",
+    "uptimeMonth": "88.98%",
+    "uptimeYear": "88.98%",
     "time": 724,
     "timeDay": 543,
     "timeWeek": 724,
     "timeMonth": 724,
     "timeYear": 724,
     "dailyMinutesDown": {
-      "2024-09-10": 11
+      "2024-09-10": 237
     }
   },
   {
@@ -43,18 +43,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/control.lykcloud.com.ico",
     "slug": "panel",
     "status": "down",
-    "uptime": "99.99%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "99.99%",
-    "uptimeYear": "99.99%",
+    "uptime": "89.51%",
+    "uptimeDay": "84.34%",
+    "uptimeWeek": "89.51%",
+    "uptimeMonth": "89.51%",
+    "uptimeYear": "89.51%",
     "time": 803,
     "timeDay": 724,
     "timeWeek": 803,
     "timeMonth": 803,
     "timeYear": 803,
     "dailyMinutesDown": {
-      "2024-09-10": 0
+      "2024-09-10": 226
     }
   },
   {
@@ -62,18 +62,20 @@
     "url": "kz.lykcloud.com",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "kazakhstan-node",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.99%",
+    "uptimeDay": "99.99%",
+    "uptimeWeek": "99.99%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "99.99%",
     "time": 192,
     "timeDay": 167,
     "timeWeek": 192,
     "timeMonth": 192,
     "timeYear": 192,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-09-10": 0
+    }
   },
   {
     "name": "Poland - Node",
@@ -99,11 +101,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/minolink.us.kg.ico",
     "slug": "minolink",
     "status": "up",
-    "uptime": "97.68%",
+    "uptime": "97.92%",
     "uptimeDay": "96.90%",
-    "uptimeWeek": "97.68%",
-    "uptimeMonth": "97.68%",
-    "uptimeYear": "97.68%",
+    "uptimeWeek": "97.92%",
+    "uptimeMonth": "97.92%",
+    "uptimeYear": "97.92%",
     "time": 2378,
     "timeDay": 1640,
     "timeWeek": 2378,
