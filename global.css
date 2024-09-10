@@ -41,7 +41,7 @@ a {
 article {
   padding: 1rem 1.25rem;
   position: relative;
-  border-radius: 1rem; /* Smooth and curved edges */
+  border-radius: 0.2rem;
   border: 1px solid;
 }
 article.link a::after {
@@ -66,15 +66,12 @@ h4 {
 }
 article.down {
   border-left: 0.2rem solid;
-  border-radius: 1rem; /* Rounded edges */
 }
 article.degraded {
   border-left: 0.2rem solid;
-  border-radius: 1rem; /* Rounded edges */
 }
 article.up {
   border-left: 0.2rem solid;
-  border-radius: 1rem; /* Rounded edges */
 }
 
 .f {
@@ -91,7 +88,7 @@ section + h2 {
 .tag {
   display: inline-block;
   padding: 0.33rem 0.5rem;
-  border-radius: 0.5rem; /* More curved edges for tags */
+  border-radius: 0.2rem;
   font-size: 70%;
   vertical-align: middle;
   margin-top: -0.2rem;
@@ -110,7 +107,6 @@ dl dd {
 
 nav {
   border-bottom: 1px solid;
-  border-radius: 1rem; /* Rounded edges for the nav bar */
 }
 
 [aria-current] {
@@ -119,7 +115,6 @@ nav {
 
 a.error-button {
   border: 0.1rem solid;
-  border-radius: 0.5rem; /* Rounded edges for buttons */
 }
 
 /* Theming */
@@ -128,7 +123,6 @@ a.error-button {
   background: #01a3a4;
   color: #fff;
   border-color: transparent;
-  border-radius: 0.5rem; /* Rounded edges for submit buttons */
 }
 
 body {
@@ -182,96 +176,9 @@ article.up {
   background: var(--change-background-color);
 }
 
-/* General Navigation Bar Styling */
 nav {
-  background: var(--nav-background-color); /* Purple background for nav */
-  border-bottom: 1px solid var(--nav-border-bottom-color); /* Lighter purple border */
-  color: var(--body-text-color); /* Text color for readability */
-  padding: 0.75rem 1.5rem; /* Adequate padding for spacing */
-  display: flex;
-  justify-content: space-between; /* Space between nav items */
-  align-items: center; /* Center align items vertically */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Enhanced shadow for depth */
-  border-radius: 0 0 1rem 1rem; /* Rounded bottom corners */
-}
-
-/* Styling for Nav Links */
-nav a {
-  color: var(--body-text-color); /* Link color matching text color */
-  text-decoration: none; /* Remove underline */
-  padding: 0.5rem 1rem; /* Padding for clickable area */
-  border-radius: 0.5rem; /* Rounded corners for links */
-  transition: background 0.3s ease, color 0.3s ease; /* Smooth transition effects */
-  font-weight: 500; /* Slightly bold font for emphasis */
-}
-
-/* Hover and Focus Effects */
-nav a:hover,
-nav a:focus {
-  background: rgba(255, 255, 255, 0.1); /* Subtle background on hover */
-  color: var(--nav-current-border-bottom-color); /* Highlight color on hover */
-}
-
-/* Current Item Highlight */
-nav [aria-current] {
-  border-bottom: 2px solid var(--nav-current-border-bottom-color); /* Bold underline for current item */
-  color: var(--nav-current-border-bottom-color); /* Highlight text color */
-  font-weight: bold; /* Bold font for emphasis */
-}
-
-/* Dropdown Menu Styling */
-.nav-dropdown {
-  position: relative;
-}
-
-.nav-dropdown:hover .nav-dropdown-content {
-  display: block;
-}
-
-.nav-dropdown-content {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
+  border-bottom-color: var(--nav-border-bottom-color);
   background: var(--nav-background-color);
-  border: 1px solid var(--nav-border-bottom-color);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Enhanced shadow for depth */
-  border-radius: 0.5rem;
-  z-index: 1000;
-  min-width: 10rem; /* Minimum width for dropdown */
-}
-
-/* Dropdown Menu Links */
-.nav-dropdown-content a {
-  padding: 0.5rem 1rem;
-  display: block;
-  color: var(--body-text-color);
-  transition: background 0.3s ease; /* Smooth transition effects */
-}
-
-.nav-dropdown-content a:hover {
-  background: rgba(255, 255, 255, 0.2); /* Highlight on hover */
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  nav {
-    flex-direction: column; /* Stack items vertically on small screens */
-    align-items: flex-start; /* Align items to the left */
-  }
-
-  nav a {
-    padding: 0.75rem 1.5rem; /* Increase padding for touch targets */
-    display: block; /* Stack links vertically */
-    width: 100%; /* Full-width links */
-    text-align: center; /* Center text */
-  }
-
-  .nav-dropdown-content {
-    position: static; /* Make dropdown content flow with the page */
-    width: 100%; /* Full-width dropdown */
-    border-top: 1px solid var(--nav-border-bottom-color); /* Border top for dropdown */
-  }
 }
 
 [aria-current] {
@@ -288,7 +195,6 @@ a.error-button {
   background: var(--submit-button-background-color);
   color: var(--submit-button-color);
   border-color: var(--submit-button-border-color);
-  border-radius: 0.5rem; /* Rounded submit button edges */
 }
 
 article .graph {

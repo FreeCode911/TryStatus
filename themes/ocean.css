@@ -1,26 +1,26 @@
 :root {
-  --body-background-color: #011945; /* Dark blue background */
-  --body-text-color: #f0ffff; /* Light text color for contrast */
-  --card-background-color: #0d2f6e; /* Deep blue card background */
-  --nav-background-color: #0d2f6e; /* Matching deep blue nav background */
-  --nav-border-bottom-color: #002d80; /* Slightly darker blue for nav border */
-  --nav-current-border-bottom-color: #1abc9c; /* Teal for current nav item */
-  --card-border-color: #002d80; /* Darker blue for card borders */
-  --down-border-left-color: #eb3b5a; /* Red for 'down' status */
-  --down-background-color: #6b1020; /* Dark red background for 'down' status */
-  --degraded-border-left-color: #f7b731; /* Yellow for 'degraded' status */
-  --up-border-left-color: #20bf6b; /* Green for 'up' status */
-  --tag-color: #f0ffff; /* Light text color for tags */
-  --tag-up-background-color: #20bf6b; /* Green for 'up' tags */
-  --tag-down-background-color: #eb3b5a; /* Red for 'down' tags */
-  --tag-degraded-background-color: #f7b731; /* Yellow for 'degraded' tags */
-  --change-background-color: #f7b731; /* Yellow for changed sections */
-  --error-button-border-color: #1a46ad; /* Dark blue for error button border */
-  --error-button-background-color: #3867d6; /* Light blue for error button background */
-  --error-button-color: #ffffff; /* White text color for error button */
-  --submit-button-border-color: #1a46ad; /* Dark blue for submit button border */
-  --submit-button-background-color: #3867d6; /* Light blue for submit button background */
-  --submit-button-color: #ffffff; /* White text color for submit button */
+  --body-background-color: #011945;
+  --body-text-color: #f0ffff;
+  --card-background-color: #0d2f6e;
+  --nav-background-color: #0d2f6e;
+  --nav-border-bottom-color: #002d80;
+  --nav-current-border-bottom-color: #1abc9c;
+  --card-border-color: #002d80;
+  --down-border-left-color: #eb3b5a;
+  --down-background-color: #6b1020;
+  --degraded-border-left-color: #f7b731;
+  --up-border-left-color: #20bf6b;
+  --tag-color: #0d2f6e;
+  --tag-up-background-color: #20bf6b;
+  --tag-down-background-color: #eb3b5a;
+  --tag-degraded-background-color: #f7b731;
+  --change-background-color: #f7b731;
+  --error-button-border-color: #1a46ad;
+  --error-button-background-color: #3867d6;
+  --error-button-color: #ffffff;
+  --submit-button-border-color: #1a46ad;
+  --submit-button-background-color: #3867d6;
+  --submit-button-color: #ffffff;
   --graph-opacity: 1;
   --graph-filter: none;
 }
