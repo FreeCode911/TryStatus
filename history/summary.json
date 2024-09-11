@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 142,
-    "timeDay": 173,
-    "timeWeek": 142,
-    "timeMonth": 142,
-    "timeYear": 142,
+    "time": 143,
+    "timeDay": 154,
+    "timeWeek": 143,
+    "timeMonth": 143,
+    "timeYear": 143,
     "dailyMinutesDown": {}
   },
   {
@@ -23,18 +23,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/manage.lykcloud.com.ico",
     "slug": "dashboard",
     "status": "down",
-    "uptime": "88.98%",
-    "uptimeDay": "83.56%",
-    "uptimeWeek": "88.98%",
-    "uptimeMonth": "88.98%",
-    "uptimeYear": "88.98%",
-    "time": 724,
-    "timeDay": 543,
-    "timeWeek": 724,
-    "timeMonth": 724,
-    "timeYear": 724,
+    "uptime": "68.60%",
+    "uptimeDay": "39.20%",
+    "uptimeWeek": "68.60%",
+    "uptimeMonth": "68.60%",
+    "uptimeYear": "68.60%",
+    "time": 709,
+    "timeDay": 478,
+    "timeWeek": 709,
+    "timeMonth": 709,
+    "timeYear": 709,
     "dailyMinutesDown": {
-      "2024-09-10": 237
+      "2024-09-11": 78,
+      "2024-09-10": 798
     }
   },
   {
@@ -43,18 +44,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/control.lykcloud.com.ico",
     "slug": "panel",
     "status": "down",
-    "uptime": "89.51%",
-    "uptimeDay": "84.34%",
-    "uptimeWeek": "89.51%",
-    "uptimeMonth": "89.51%",
-    "uptimeYear": "89.51%",
+    "uptime": "69.00%",
+    "uptimeDay": "39.98%",
+    "uptimeWeek": "69.00%",
+    "uptimeMonth": "69.00%",
+    "uptimeYear": "69.00%",
     "time": 803,
-    "timeDay": 724,
+    "timeDay": 747,
     "timeWeek": 803,
     "timeMonth": 803,
     "timeYear": 803,
     "dailyMinutesDown": {
-      "2024-09-10": 226
+      "2024-09-11": 78,
+      "2024-09-10": 786
     }
   },
   {
@@ -63,18 +65,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "kazakhstan-node",
     "status": "down",
-    "uptime": "99.99%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "99.99%",
-    "uptimeYear": "99.99%",
+    "uptime": "72.77%",
+    "uptimeDay": "55.63%",
+    "uptimeWeek": "72.77%",
+    "uptimeMonth": "72.77%",
+    "uptimeYear": "72.77%",
     "time": 192,
-    "timeDay": 167,
+    "timeDay": 0,
     "timeWeek": 192,
     "timeMonth": 192,
     "timeYear": 192,
     "dailyMinutesDown": {
-      "2024-09-10": 0
+      "2024-09-11": 78,
+      "2024-09-10": 561
     }
   },
   {
@@ -88,11 +91,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 135,
-    "timeDay": 106,
-    "timeWeek": 135,
-    "timeMonth": 135,
-    "timeYear": 135,
+    "time": 141,
+    "timeDay": 176,
+    "timeWeek": 141,
+    "timeMonth": 141,
+    "timeYear": 141,
     "dailyMinutesDown": {}
   },
   {
@@ -101,16 +104,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/minolink.us.kg.ico",
     "slug": "minolink",
     "status": "up",
-    "uptime": "97.92%",
-    "uptimeDay": "96.90%",
-    "uptimeWeek": "97.92%",
-    "uptimeMonth": "97.92%",
-    "uptimeYear": "97.92%",
-    "time": 2378,
-    "timeDay": 1640,
-    "timeWeek": 2378,
-    "timeMonth": 2378,
-    "timeYear": 2378,
+    "uptime": "98.40%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "98.40%",
+    "uptimeMonth": "98.40%",
+    "uptimeYear": "98.40%",
+    "time": 2204,
+    "timeDay": 471,
+    "timeWeek": 2204,
+    "timeMonth": 2204,
+    "timeYear": 2204,
     "dailyMinutesDown": {
       "2024-09-09": 45
     }
@@ -126,11 +129,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 205,
-    "timeDay": 213,
-    "timeWeek": 205,
-    "timeMonth": 205,
-    "timeYear": 205,
+    "time": 201,
+    "timeDay": 174,
+    "timeWeek": 201,
+    "timeMonth": 201,
+    "timeYear": 201,
     "dailyMinutesDown": {}
   }
 ]
